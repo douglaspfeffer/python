@@ -9,4 +9,3 @@ lista=[nome1,nome2,nome3,nome4]
 shuffle(lista)
 print('A ordem de apresentação será')
 print(lista)
-jiuhuihuhuuuu
