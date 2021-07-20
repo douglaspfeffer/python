@@ -1,0 +1,6 @@
+numero1=int(input('Primeiro número= '))
+numero2=int(input('Segundo número= '))
+soma=(numero1+numero2)
+print('A soma é ',soma)
+print('A soma é {}'.format(soma))
+print('A soma entre {} e {} é igual a {}!'.format(numero1,numero2,soma))

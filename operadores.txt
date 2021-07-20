@@ -1,0 +1,86 @@
++ adição
+- subtração
+* multiplicação
+/ divisão
+** potência (elevado) ou pow(numero,elevado)
+// divisão inteira (divide sem usar virgula)
+% resto da divisão (o que sobrou da divisão inteira)
+**(1/potência) raiz ex: **(1/2) raiz quadrada
+
+## {}
+:.3f 3 casas flutuantes
+:>(número de espaço) alinhado a direita com X espaços
+:<(número de espaço) alinhado a esquerda com X espaços
+:^(número de espaço) centralizado com X espaços
+:=^(número de espaço) centralizado + igual ao redor com X espaços
+
+## print
+end='' não quebra linha entre o print de baixo OBS: dentro do '' pode colocar qualquer coisa
+\n quebra de linha
+
+## ordem acadêmica
+1 ()
+2 **
+3 * / // %
+4 + -
+
+## importações
+import math
+from math import sqrt (só vai importar a raiz quadrada)
+import random (importa numeros aleatorios)
+random.random (numeros entre 0 e 1)
+random.randint (n1, nx)
+OBS: depois do import se segurar ctrl e apertar espaço vai aparecer as opções da biblioteca
+
+## bibliotecas
+math (matemática)
+    ceil (arredonda pra cima)
+    floor (arredonda pra baixo)
+    trunc (vai eliminar da virgula pra frente)
+    pow (potência)
+    sqrt (raiz quadrada)
+    factorial (fatorial)
+
+# CADEIA DE CARACTERES
+E uma frase, texto. Ele está entre aspas simples ou duplas (as vezes pode usar 3 aspas duplas
+'cadeia da caracteres' ou "cadeia de caracteres" ou """cadeia de caracteres"""
+OBS: as aspas 3x é para um texto longo
+
+frase='Curso em vídeo de Python'
+
+## FATIAMENTO
+frase(x:y:z) x=início,y=fim-1,z=saltar
+frase(9) [vai ser a letra V]
+frase(9:14) [vai mostrar a palavra Vídeo] OBS: ele sempre corta a ultima casa
+frase(9:21) [vai mostrar a palavra Vídeo Python] OBS: não é legal utilizar o 21 pois vai só de 0 a 20
+frase(9:21:2) [vai mostrar a frase pulando de 2 em 2, vai motrar vdo pto]
+frase(:5) [começa do início e para na casa 4] = frase(0:5)
+frase(15:) [começa do 15 e vai até o final]
+frase(9::3) [começa do 9 e pula de 3 em 3, vai mostrar ve ph]
+
+##ANÁLISE
+len(frase) = 21 caracteres [significa comprimento]
+frase.count('o') = 3 [vai contar quantas vezes aparece a letra 'o' minúcsula]
+frase.count('o',0,13) = 1 [contagem com fatiamento]
+frase.find('deo')=11 [vai mostrar a posição de onde inicia a palavra pesquisada]
+frase.find('Android')=-1 [não foi encontrado]
+'Curso' in frase=True [existe a palavra curso dentro da frase? vai aparecer True pois é verdadeiro]
+
+## TRANSFORMAÇÃO
+frase.replace('Python','Android') [vai procurar por Python e vai substituir por Android]
+frase.upper() [vai colocar tudo em maiúsculo]
+frase.lower() [vai deixar tudo em minúsculo]
+frase.captalize() [somente a primeira letra da frase vai ficar em maiúisculo]
+frase.title() [vai analisar quantas palavras tem a string e cada início de palavra vai ser maiúsculo]
+frasea='   Aprenda Python  '
+frasea.strip() [vai remover todos os espaços inúteis no inicio e no fim do texto]
+frasea.rstrip() [vai remover somente os últimos espaçõs do fim da frase]
+frasea.lstrip() [vai remover somente os primeiros espaçõs do fim da frase]
+
+## DIVISÃO
+frase.split() [vai ocorrer uma divisão entre os espaços, 'Curso' 'em' 'Vídeo' 'Python']C=0,u=1,r=2,s=3,o=4; 0=e,1=m
+    [vai gerar uma lista com as palavras da cadeia de caracteres]
+    0=Curso,1=em,2=Vídeo,3=Pyton
+
+##JUNÇÂO
+'-'.join(frase) [vai juntar tudo (frases separadas) 'Curso-em-Vídeo-Python']
