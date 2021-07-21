@@ -1,3 +1,10 @@
 
 *.xml
 .idea/pythonExercicios.iml
+/.idea/.gitignore
+/.idea/codestream.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/pythonExercicios.iml
+/.idea/vcs.xml

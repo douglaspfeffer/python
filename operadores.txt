@@ -84,3 +84,12 @@ frase.split() [vai ocorrer uma divisão entre os espaços, 'Curso' 'em' 'Vídeo'
 
 ##JUNÇÂO
 '-'.join(frase) [vai juntar tudo (frases separadas) 'Curso-em-Vídeo-Python']
+
+#CONDIÇÂO
+if carro.esquerda():
+    bloco True
+else:
+    bloco False
+
+print('bloco True' if tempo<=3 else 'bloco False' )
+
