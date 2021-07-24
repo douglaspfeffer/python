@@ -123,4 +123,4 @@ backgroung ()
 46=azul piscina
 47=cinza
 
-ex: print('\033[1;31;43mOlá Mundo!\033[m'
+ex:. print('\033[1;31;43mOlá Mundo!\033[m'
