@@ -93,3 +93,34 @@ else:
 
 print('bloco True' if tempo<=3 else 'bloco False' )
 
+## CORES (CÓDIGO ANSI)
+\033[ (somente isso é o padrão
+\033[m (entre o colchete e o m vai colocar a cor)
+\033[m style;text;backgroung m
+style (normal, negrito, sublinhado)
+0=sem estilo nenhum
+1=negrito
+4=sublinhado
+7=inverter as configurações de cor e fundo
+
+text ()
+30=branco
+31=vermelho
+32=verde
+33=amarelo
+34=azul fraco
+35=roxo
+36=azul piscina
+37=cinza
+
+backgroung ()
+40=branco
+41=vermelho
+42=verde
+43=amarelo
+44=azul fraco
+45=roxo
+46=azul piscina
+47=cinza
+
+ex: print('\033[1;31;43mOlá Mundo!\033[m'
