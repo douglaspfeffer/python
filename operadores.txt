@@ -41,6 +41,10 @@ math (matemática)
     sqrt (raiz quadrada)
     factorial (fatorial)
 
+    datetime, sleep
+datetime.date.today().year -> pego o ano atual
+time.sleep(1) -> 1 segundo de delay
+
 # CADEIA DE CARACTERES
 E uma frase, texto. Ele está entre aspas simples ou duplas (as vezes pode usar 3 aspas duplas
 'cadeia da caracteres' ou "cadeia de caracteres" ou """cadeia de caracteres"""
@@ -124,3 +128,8 @@ backgroung ()
 47=cinza
 
 ex:. print('\033[1;31;43mOlá Mundo!\033[m'
+
+##CONDIÇÕES ANINHADAS
+if
+elif
+else
