@@ -45,6 +45,9 @@ math (matemática)
 datetime.date.today().year -> pego o ano atual
 time.sleep(1) -> 1 segundo de delay
 
+import os
+os.system('cls') -> limpa a tela
+
 # CADEIA DE CARACTERES
 E uma frase, texto. Ele está entre aspas simples ou duplas (as vezes pode usar 3 aspas duplas
 'cadeia da caracteres' ou "cadeia de caracteres" ou """cadeia de caracteres"""
@@ -88,6 +91,7 @@ frase.split() [vai ocorrer uma divisão entre os espaços, 'Curso' 'em' 'Vídeo'
 
 ##JUNÇÂO
 '-'.join(frase) [vai juntar tudo (frases separadas) 'Curso-em-Vídeo-Python']
+replace(' ','') -> vai juntar tudo
 
 #CONDIÇÂO
 if carro.esquerda():
@@ -133,3 +137,12 @@ ex:. print('\033[1;31;43mOlá Mundo!\033[m'
 if
 elif
 else
+
+##FOR
+for C in range(x,y,z):
+    passo
+pega
+
+x=inicio
+y=fim
+z=saltar
