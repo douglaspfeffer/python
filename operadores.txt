@@ -146,3 +146,7 @@ pega
 x=inicio
 y=fim
 z=saltar
+
+##WHILE
+while not()
+while

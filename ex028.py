@@ -2,17 +2,18 @@
 usuário tentar descobrir qual foi o número escolhido pelo computador.
 O programa deverá escrever na tela se o usuário venceu ou perdeu.'''
 
-import random,time
+from random import randint
+from time import sleep
 
-numero=int(input('Digite um número inteiro de 0 a 5: '))
+usuario=int(input('Digite um número inteiro de 0 a 5: '))
 
 print('PROCESSANDO...')
 
-numero2=random.randint(0,5)
+computador=randint(0,5)
 
-time.sleep(3)
+sleep(3)
 
-if (numero==numero2):
-    print('Parabéns, você acertou! {} é o número que eu estava pensando!'.format(numero))
+if (usuario==computador):
+    print('Parabéns, você acertou! {} é o número que eu estava pensando!'.format(usuario))
 else:
-    print('Você errou! Eu estava pensando no número {}'.format(numero2))
+    print('Você errou! Eu estava pensando no número {}'.format(computador))
