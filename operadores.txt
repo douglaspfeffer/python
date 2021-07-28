@@ -150,3 +150,26 @@ z=saltar
 ##WHILE
 while not()
 while
+
+##TUPLA ()
+É uma variável que guarda valores
+lanche=('Hamburguer','Suco','Pizza','Pudim')
+
+for comida in lanche:
+    print(f'Eu vou comer {comida} ')
+
+for cont in range(0,len(lanche)):
+    print(f'Eu vou comer {lanche[cont]} na posição {cont}')
+
+for pos,lanche in enumerate(lanche):
+    print(f'Eu vou comer {comida} na posição {pos} ')
+
+##ORDENAR
+sorted(x)
+
+##posição
+index(x) -> em que posição X está
+
+##LISTA []
+
+##DICIONÁRIO {}
