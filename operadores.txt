@@ -185,5 +185,8 @@ valores=[] ou valores=list()
 a=[2,3,4,7]
 b=a -> b recebe a
 b=a[:] b recebe uma cópia de a
+    
+dados.append() ex: 0 -> pedro. 1 - > 25
+pessoas.append(dados[:]) ex: 0 -> pedro 25
 
 ##DICIONÁRIO {}
