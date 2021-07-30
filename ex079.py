@@ -5,8 +5,9 @@ em ordem crescente. """
 lista=[]
 escolha=''
 
-lista.append(int(input('Digite um número: ')))
-print('Número adicionado..')
+numero=(int(input('Digite um número: ')))
+lista.append(numero)
+print('Número adicionado..',end='')
 
 while not escolha=='n':
     escolha=str(input('Quer continuar? [s/n] '))
@@ -14,8 +15,12 @@ while not escolha=='n':
         print(f'\nVocê digitou os valores {sorted(lista)}\n')
         break
     elif escolha=='s':
-        print('Número adicionado..',end=' ')
-        lista.append(int(input('Digite um número: ')))
+        numero=(int(input('Digite um número: ')))
+        if numero not in lista:
+            lista.append(numero)
+            print('Número adicionado..',end=' ')
+        else:
+            print('Valor duplicado! Não vou adicionar...',end='')
 
     else:
         print('Opção inválida!',end=' ')
