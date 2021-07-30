@@ -166,10 +166,24 @@ for pos,lanche in enumerate(lanche):
 
 ##ORDENAR
 sorted(x)
+.sort() -> ordena em ordem crescente
+.sort(reverse=True) -> ordena em ordem decrescente
 
 ##posição
 index(x) -> em que posição X está
 
 ##LISTA []
+.append('x)->   adiciona um elemento no final da lista
+.insert(x,y) -> adiciona um elemento Y a lista na posição X 
+del x[y] ->     deleta o X na posição Y
+x.pop(y) ->     deleta o X na posição Y
+x.remove('x') ->    deleta pelo conteúdo
+valores=list(range(4,11)) hera valores de 4 a 10
+
+valores=[] ou valores=list()
+
+a=[2,3,4,7]
+b=a -> b recebe a
+b=a[:] b recebe uma cópia de a
 
 ##DICIONÁRIO {}
