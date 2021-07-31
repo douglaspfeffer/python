@@ -52,5 +52,3 @@ for p in range(0,len(lista),2):
         if lista[p+1]==menorPeso:
             print(f'[{lista[p]}]',end=' ')
 print('\n')
-
-Só para a push
