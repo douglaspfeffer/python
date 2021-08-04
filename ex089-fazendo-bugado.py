@@ -43,3 +43,4 @@ for c in range(0,len(lista),4):
 for c in range(3,len(lista),3):
     print(f'Média: {lista[c]}')
     print()
+
