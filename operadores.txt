@@ -190,3 +190,17 @@ dados.append() ex: 0 -> pedro. 1 - > 25
 pessoas.append(dados[:]) ex: 0 -> pedro 25
 
 ##DICIONÁRIO {}
+dados=dict() ou dados={}
+ex: dados={'nome':'Pedro','idade'=25}
+print(dados['nome'])
+print(dados['idade'])
+
+ex: filme={'titulo':'Star Wars','ano':1977,'diretor':'George Lucas'}
+.keys() -> retorna todos os valores do dicionário (titulo,ano,diretor)
+.values() -> retorna todos os valores do dicionário (Star Wars,1977,George Lucas)
+.items() -> retorna todos os valores de .values() e .keys()
+.copy() -> copia o conteudo para a lista
+
+for k,v in filme.items():
+    print(f'O {k} é {v}') -> O título é Star Wars; O ano é 1977; O diretor é George Lucas
+
