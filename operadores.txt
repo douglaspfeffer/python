@@ -203,4 +203,3 @@ ex: filme={'titulo':'Star Wars','ano':1977,'diretor':'George Lucas'}
 
 for k,v in filme.items():
     print(f'O {k} é {v}') -> O título é Star Wars; O ano é 1977; O diretor é George Lucas
-
