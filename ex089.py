@@ -2,9 +2,6 @@
 No final, mostre um boletim contendo a média de cada um e permita que o usuário possa mostrar as notas
 de cada aluno individualmente """
 
-from typing import ByteString
-
-
 lista=[]
 escolha=''
 
