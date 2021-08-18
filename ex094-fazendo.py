@@ -5,8 +5,6 @@
 # C) Uma lista com as mulheres
 # D) Uma lista de pessoas com idade acima da média
 
-from operator import itemgetter
-
 listaDicionario={}
 listaMulheres=[]
 totalPessoasCadastradas=0
